@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Minha Biblioteca Digital</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="CabecalhoRodape">
+            <nav class="CabecalhoRodape__Links"><a>Home</a><a>Fórum</a></nav>
+        </header>
+        <div>
+            <div class="fundo"></div>
+            <main class="CorpoPg">
+                <h1>Galeria de Livros Acadêmicos</h1>
+                <section class="AreaPesquisa">
+                    <section id="nuvem" class="Nuvem">
+                          <div class="Linhas" id="L1">
+                          </div>
+                          <div class="Linhas" id="L2">
+                          </div>
+                          <div class="Linhas" id="L3">
+                          </div>
+                    </section>
+                    <div>
+                        <input type="search" id="meuInput" placeholder="Pesquise algo aqui!">
+                        <button class="Botao" onclick="Pesquisa()">Pesquisar</button>
+                    </div>
+                </section>
+                <section class="Conteudo">
+                    <section id="Resultados" class="resultados-pesquisa">
+                    <h3 style="color: black;">Armazenamos livros dos Cursos de:"</h3>
+                    <ul>
+                        <strong>
+                        <li>Engenharia de Produção</li>
+                        <li>Sistemas de Informação</li>
+                        <li>Ciências de Dados</li>
+                        <li>Cyberops (Operações Cibernéticas)</li>
+                    </strong>
+                      </ul>
+                    </section>
+                </section>
+            </main>
+    </div>
+        <script src="Biblioteca.js"></script>
+        <script src="dados.js"></script>
+        <script src="app.js"></script>
+        <footer class="CabecalhoRodape">"Só preciso de 1% de chance para acreditar que posso, e ainda duvido que não seja possível se for menos que isso!" Autor: Eu mesmo</footer>
+    </body>
+</html>
