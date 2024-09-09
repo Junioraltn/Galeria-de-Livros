@@ -1,4 +1,6 @@
 ## Biblioteca Digital: Um portal para seus estudos
+![Tela Principal dá página. Mosta a núvem de palavras inicial estática o cmapo de pesquisa com o seu botão e a área onde será retornado o resultado buscado. Esta área contém um texto que define quais cursos são contemplados com os livros que estão na galeria](https://github.com/user-attachments/assets/a231107b-7523-4001-ba28-a68687cc2f23)
+
 ### Descrição
 Este projeto tem como objetivo criar uma biblioteca digital intuitiva e eficiente para pesquisar e encontrar livros acadêmicos. A aplicação permite que o usuário realize pesquisas por palavras-chave, filtrando os resultados por curso, autor, disciplina e outras informações relevantes.
 
